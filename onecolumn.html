@@ -43,31 +43,9 @@
 							<div class="col-12">
 
 								<!-- page comments -->
-		<div id="hashover-1.0.2"></div>
-
-		<!-- load asynchronous -->
-		<script type="text/javascript">
-			 {
-				var s = document.createElement('scripts'),
-				t = document.getElementsByTagName('scripts')[0];
-				s.type = 'text/javascript'; s.async = true;
-				s.src = src="hashover-1.0.2/hashover/write_comments.php";
-				t.parentNode.insertBefore(s, t); })();}
-		</script>
-								<section>
-									<a name="' + permalink + '"></a>
-<div style="margin: ' + indent + '; clear: both;" class="' + cmtclass + '">
-	<span class="cmtnumber">' + avatar + '</span>
-	<div class="cmtbubble">
-		<div class="cmtheader">' + name + ' ' + thread + '</div>
-		<div id="cmtdata-' + permalink + '" class="cmtdata">' + comment + '</div><br>
-		<form name="reply_form-' + permalink + '" id="reply_form-' + permalink + '" method="post" action="/hashover.php">
-			<div id="cmtforms-' + permalink + '" align="left">' + form + '</div>
-		</form>
-
-		<div id="cmtopts-' + permalink + '" class="cmtopts"' + cmtopts_style + '>
-			<span class="cmtdate">' + date + '&nbsp; <span id="likes-' + permalink + '">' + likes + '</span></span>
-			<span class="cmtbuttons" style="float: right;">' + like_link + ' ' + edit_link + ' ' + reply_link + '</span>
+<div id="hashover"></div>
+<script type="text/javascript" src="/hashover/comments.php"></script>
+<noscript>You must have JavaScript enabled to use the comments.</noscript>
 		</div>
 	</div>
 </div>
